@@ -1,0 +1,21 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# La tua cartella di lavoro nella radice: post, dati e bozze restano sul tuo computer
+/archivio/
+/dati/
+/bozze/
+
+# Bozze generate provando l'esempio
+esempio/bozze/*
+!esempio/bozze/.gitkeep
+esempio/dati/gruppi-di-domande.md
+
+# Export e file che possono contenere dati personali o accessi
+*.csv
+*.zip
+.env
+.env.*
+*.local.*
+.claude/settings.local.json
