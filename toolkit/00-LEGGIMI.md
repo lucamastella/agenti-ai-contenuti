@@ -18,8 +18,8 @@ Materiali del webinar "Agenti AI per i contenuti" della Agents Week di Learnn. S
 1. **Chiedi oggi l'export dei tuoi dati a LinkedIn** (Impostazioni e privacy, Privacy dei dati, Ottieni una copia dei tuoi dati, archivio completo): arriva in circa 24 ore ed è l'unico passo che non dipende da te.
 2. **Crea una cartella di lavoro** sul computer, per esempio "contenuti", con dentro tre cartelle: archivio, dati, bozze.
 3. **Metti nella cartella il file di istruzioni** (06), adattato a te.
-4. **Costruisci l'archivio** dei tuoi post con i prompt A1-A3 del file 01: indice, metriche e regole della tua voce. Se non hai mai pubblicato, parti dai contenuti di altri che ti piacciono e scrivi perché.
-5. **Crea la tua prima skill** con il prompt A4, oppure adatta la 02.
+4. **Costruisci l'archivio** dei tuoi post con i prompt A1-A3 del file 01: indice, metriche e regole della tua voce. Se non hai mai pubblicato, parti dai contenuti di chi ti piace leggere con il prompt A6.
+5. **Crea la tua prima skill** con il prompt A5, che le regole le fa scoprire all'agente dai tuoi post. In alternativa usa il prompt A4 oppure adatta la 02.
 6. **Scrivi il primo post** con la skill e correggilo prima di pubblicarlo: le correzioni diventano regole con il prompt D1.
 7. **Solo dopo tre o quattro settimane** trasforma il lavoro in una routine con il prompt E1.
 

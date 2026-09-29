@@ -77,6 +77,34 @@ Quando hai finito mostrami la skill e un esempio di piano per questa settimana.
 
 ---
 
+### A5. La skill scoperta dai tuoi post
+
+La strada consigliata per creare la skill: invece di dettare le regole, le fai scoprire all'agente dai tuoi post. Dopo la risposta chiedi "cosa hai imparato?", correggi i formati e fai un post di prova da riscrivere.
+
+```
+Nella cartella archivio ci sono i miei post LinkedIn con i loro numeri (impression, reazioni, commenti).
+
+Creami una skill che si chiama "post-linkedin" per scrivere post come i miei. Non ti do regole: ricavale tu dai post. Guarda come apro, quanto sono lunghi i paragrafi, che parole uso e quali evito, come chiudo, come uso punteggiatura, emoji ed elenchi. Dividi i post in formati (per esempio opinione con un dato, storia, lista di lezioni) e per ogni formato indica i tre post che lo rappresentano meglio e come hanno funzionato rispetto alla mediana.
+
+Quando hai finito non salvare ancora niente: raccontami cosa hai imparato, quali formati hai trovato e quali regole vuoi scrivere nella skill. Le decidiamo insieme.
+```
+
+### A6. Se non hai uno storico: la voce da chi ti piace leggere
+
+Copia i post di un creator o di un'azienda che scrive come vorresti (profilo, Attività, Post, scorri e copia) e metti in dati/miei-testi.md qualche testo tuo: email, note, post vecchi.
+
+```
+Nella cartella dati ci sono i post di [nome del creator o dell'azienda], copiati dalla sua pagina con reazioni e commenti. Alcuni miei testi (email, note, post vecchi) sono in dati/miei-testi.md.
+
+1. Dai post dell'altro ricava i formati: come aprono, come sono strutturati, come chiudono, quanto sono lunghi. Per ogni formato indica i tre post che lo rappresentano meglio e quanto hanno funzionato.
+2. Dai miei testi ricava come parlo io: lunghezza delle frasi, parole che uso spesso, tono, cosa non dico mai.
+3. Scrivi archivio/voce.md con le regole della mia voce e, in una sezione a parte, i formati presi dall'altro adattati alla mia voce.
+
+Regole: prendi i formati, mai le opinioni o le storie dell'altro. Se una regola della mia voce si basa su pochi esempi, scrivilo.
+```
+
+---
+
 ## B. Le idee dai dati
 
 ### B1. Dalle domande delle persone ai temi
@@ -122,6 +150,20 @@ Con la skill articolo-blog scrivi un articolo che:
 - riporta per iscritto i prompt o i passaggi pratici mostrati.
 
 Indica accanto a ogni affermazione da quale punto della trascrizione viene. Non aggiungere dati che non sono nei file. Salva la bozza in bozze/.
+```
+
+---
+
+### C3. Il post che raccoglie l'archivio
+
+Il formato "cinque cose che ho imparato su [tema]", con un link per ognuno dei contenuti dell'archivio che le raccontano. Porta salvataggi e clic sui post vecchi.
+
+```
+Voglio un post che raccolga quello che ho già scritto su [tema], nel formato "[numero] cose che ho imparato su [tema]".
+
+Cerca in archivio/post-indice.md e nei miei articoli i contenuti su questo tema e scegli i [numero] con più impression o più utili, senza ripetizioni. Per ognuno scrivi un paragrafo di due o tre righe che dice la cosa imparata e mette il link al contenuto originale.
+
+Usa la skill post-linkedin per voce e apertura, poi passa la bozza alla skill revisione-anti-ai. Salva la bozza in bozze/ con la data.
 ```
 
 ---
@@ -176,4 +218,20 @@ Crea una routine che parte ogni lunedì alle 8 e usa la skill post-linkedin. Ogn
 Regole: non pubblicare mai niente da solo e non inventare fatti, numeri o citazioni. Ogni tema preso dal web ha il suo link. Se ti manca un dato, chiedimelo.
 ```
 
-I prompt A1-A4, D1 ed E1 vengono dall'articolo del blog di Learnn "Post LinkedIn con l'AI: il processo che impara dal tuo stile" (https://learnn.com/blog/post-linkedin-ai), dove sono spiegati passo per passo con gli esempi.
+### E2. La routine che legge i feedback e propone cosa fare
+
+Lo stesso schema del piano del lunedì applicato ai messaggi che ricevi: l'agente raggruppa, propone cosa può fare da solo e prepara i messaggi per chi deve intervenire.
+
+```
+Crea una routine che parte ogni mattina alle 9. Ogni volta:
+
+1. Leggi i messaggi arrivati nelle ultime 24 ore in [dove arrivano: email del supporto, chat del sito, commenti ai post, recensioni].
+2. Raggruppali per tema e dimmi per ogni gruppo quante persone lo segnalano e una frase che lo rappresenta, senza nomi né email.
+3. Per ogni gruppo dividi le azioni in due: quello che puoi fare tu (aggiornare una pagina, correggere una risposta salvata, proporre un contenuto che risponde alla domanda) e quello che va girato a qualcuno, con il nome del team o della persona.
+4. Per le azioni da girare prepara il messaggio da mandare, corto, con il numero di segnalazioni e un esempio.
+5. Fermati e aspetta: non fai niente e non mandi niente finché non ti dico quali azioni approvo.
+
+Regole: mai dati personali nei riepiloghi e nei messaggi. Se un gruppo ha una sola segnalazione, mettilo in fondo.
+```
+
+I prompt A5, A6, C3 ed E2 nascono dalle domande arrivate durante il webinar del 29 settembre. I prompt A1-A4, D1 ed E1 vengono dall'articolo del blog di Learnn "Post LinkedIn con l'AI: il processo che impara dal tuo stile" (https://learnn.com/blog/post-linkedin-ai), dove sono spiegati passo per passo con gli esempi.

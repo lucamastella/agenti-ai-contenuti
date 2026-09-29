@@ -4,6 +4,15 @@ Il toolkit del webinar "Agenti AI per i contenuti" della Agents Week di Learnn: 
 
 Funziona con Claude Code, Cowork, Codex, ChatGPT, Gemini e Copilot.
 
+## Il webinar
+
+- La registrazione: [youtube.com/watch?v=yWZa1UZzoBA](https://www.youtube.com/watch?v=yWZa1UZzoBA)
+- Le slide: [canva.link/ubdcoa0gl7nciv6](https://canva.link/ubdcoa0gl7nciv6)
+- Il foglio Google con prompt, skill e checklist, da copiare con File, Crea una copia: [Toolkit per creare contenuti con un agente AI](https://docs.google.com/spreadsheets/d/1rx9xRtLZRMupLdK975Hy7Pj5nZB_eaNzy07BjSeSvK8/edit)
+- Tutte le sessioni dell'Agents Week: [learnn.com/agents-week/programma](https://learnn.com/agents-week/programma/)
+
+Le domande arrivate in chat hanno le loro risposte in [procedure/11-domande-frequenti.md](procedure/11-domande-frequenti.md). Chi non ha uno storico di post o lavora su Instagram, YouTube o un blog parte da [procedure/10-senza-storico-e-altri-canali.md](procedure/10-senza-storico-e-altri-canali.md).
+
 ## A chi serve
 
 A chi scrive con regolarità per lavoro (professionisti, freelance, founder, chi fa marketing in una piccola azienda) e vuole che l'AI scriva con la sua voce invece che con quella di tutti. Non serve saper programmare: bastano un account su uno degli strumenti e una cartella sul computer.
@@ -14,8 +23,8 @@ L'idea di fondo: i post scritti dall'AI si somigliano tutti perché il modello s
 
 | Cartella o file | Cosa contiene | Quando lo usi |
 |---|---|---|
-| `esempio/` | Una cartella di lavoro già pronta: archivio e regole di voce dai post LinkedIn pubblici di Luca Mastella, le domande di un webinar, i risultati attesi | Il primo giorno, per provare il sistema in cinque minuti |
-| `procedure/` | Nove procedure in ordine, dalla cartella vuota alla routine del lunedì, ognuna con passi, prompt ed errori comuni | Quando costruisci la tua cartella |
+| `esempio/` | Una cartella di lavoro già pronta: archivio e regole di voce dai post LinkedIn pubblici di Luca Mastella, le domande dei due webinar, i risultati attesi | Il primo giorno, per provare il sistema in cinque minuti |
+| `procedure/` | Undici procedure: nove in ordine, dalla cartella vuota alla routine del lunedì, più i casi senza storico o su altri canali e le domande del webinar | Quando costruisci la tua cartella |
 | `toolkit/` | I materiali del webinar così come li abbiamo distribuiti: prompt per ogni fase, tre skill, checklist, file di istruzioni | Come riferimento oppure per copiare le skill in file visibili |
 | `.claude/skills/` | Le tre skill (post-linkedin, articolo-blog, revisione-anti-ai) nel formato che Claude Code carica da solo | Ogni volta che scrivi |
 | `CLAUDE.md`, `AGENTS.md` | Il file di istruzioni per l'agente, da compilare con i tuoi dati: Claude Code legge il primo, Codex il secondo | Il primo giorno |
@@ -75,6 +84,8 @@ Dopo il giro sull'esempio costruisci la tua cartella seguendo le procedure in or
 | [07. L'articolo da un evento](procedure/07-articolo-da-un-evento.md) | Da una trascrizione a un articolo con FAQ e fonti | 30 minuti |
 | [08. La routine settimanale](procedure/08-routine-settimanale.md) | Il piano del lunedì che arriva da solo | Dopo tre o quattro settimane |
 | [09. Gli altri strumenti](procedure/09-altri-strumenti.md) | Dove mettere ogni pezzo su Claude, Codex, ChatGPT, Gemini e Copilot | Quando serve |
+| [10. Senza storico e su altri canali](procedure/10-senza-storico-e-altri-canali.md) | Se non hai mai pubblicato oppure lavori su Instagram, Facebook, TikTok, YouTube e blog | Quando serve |
+| [11. Le domande del webinar](procedure/11-domande-frequenti.md) | Le risposte alle domande più frequenti della chat | Quando serve |
 
 Le cartelle `archivio/`, `dati/` e `bozze/` nella radice sono escluse da git (vedi `.gitignore`): i tuoi post e i tuoi dati restano sul tuo computer anche se pubblichi una copia del repository.
 
@@ -89,14 +100,14 @@ agenti-ai-contenuti/
 │   ├── post-linkedin/SKILL.md
 │   ├── articolo-blog/SKILL.md
 │   └── revisione-anti-ai/SKILL.md
-├── procedure/                01-09, da seguire in ordine
+├── procedure/                01-09 in ordine, poi 10 e 11 quando servono
 ├── toolkit/                  00-06, i materiali originali del webinar
 └── esempio/                  la cartella della demo, già compilata
     ├── LEGGIMI.md            la demo in quattro prompt
     ├── CLAUDE.md, AGENTS.md
     ├── .claude/skills/
     ├── archivio/             post-indice.md, voce.md
-    ├── dati/                 domande-webinar-1.md
+    ├── dati/                 domande-webinar-1.md, domande-webinar-2.md
     ├── risultati-pronti/     i risultati attesi di ogni passo
     └── bozze/                qui l'agente salva le bozze
 ```
@@ -111,6 +122,8 @@ domande delle persone -> gruppi di temi -> idee -> scegli tu
 idea scelta -> bozza -> revisione anti-AI -> correggi tu -> pubblichi tu
 differenza fra bozza e pubblicato -> regola nuova in voce.md -> bozza migliore la settimana dopo
 ```
+
+Le quattro fasi hanno quattro strumenti: i **dati** sono l'archivio e le fonti collegate, le **skill** scrivono con la tua voce, la **revisione** resta tua, la **routine** fa girare tutto ogni settimana senza un prompt. La differenza con una skill che scrive "alla tua maniera" sta nei dati: con l'archivio l'agente sa cosa hai già detto su un tema e cosa ne pensi, quindi due persone che usano la stessa skill ottengono due post diversi.
 
 L'ultimo passaggio è quello che fa la differenza: la skill impara solo da quello che correggi. Dopo quattro o cinque settimane le correzioni diventano poche e puoi mettere tutto in una routine che il lunedì ti fa trovare il piano della settimana.
 

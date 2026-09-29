@@ -63,4 +63,4 @@ Lo stesso sistema su qualsiasi strumento: le fonti, le regole e le skill sono fi
 - **Dimenticare di ricaricare i file aggiornati.** Nei progetti di ChatGPT, Gemini e Copilot i file caricati non si aggiornano da soli: dopo una settimana di correzioni ricarica `voce.md`.
 - **Aspettarsi le stesse funzioni ovunque.** Le routine e l'accesso al browser cambiano da strumento a strumento: dove mancano, i passi si fanno a mano e il metodo regge lo stesso.
 
-Torna al [README](../README.md).
+Prossimo passo: [10. Senza storico e su altri canali](10-senza-storico-e-altri-canali.md).

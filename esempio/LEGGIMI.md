@@ -10,6 +10,7 @@ Questa è la cartella usata nella demo del webinar "Agenti AI per i contenuti". 
 | `archivio/post-indice.md` | 60 post LinkedIn pubblici di Luca con data, temi, prima riga e link |
 | `archivio/voce.md` | Le regole del suo modo di scrivere, ognuna con il dato che la sostiene |
 | `dati/domande-webinar-1.md` | Circa 230 domande arrivate in chat al primo webinar dell'Agents Week, raggruppate per tema e senza nomi |
+| `dati/domande-webinar-2.md` | Circa 150 domande arrivate in chat al secondo webinar, su altri canali, skill, routine e privacy, raggruppate per tema e senza nomi |
 | `.claude/skills/` | Le tre skill: post-linkedin, articolo-blog, revisione-anti-ai |
 | `risultati-pronti/` | Quello che l'agente ha prodotto durante la demo, passo per passo |
 | `bozze/` | Vuota: qui l'agente salva quello che scrive |
